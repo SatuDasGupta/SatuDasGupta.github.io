@@ -1,3 +1,37 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
+.banner-container{
+  background-color: aquamarine;
+}
+.banner-column{
+  background-color: coral;
+}
+.border-rad{
+  border-radius: 50px;
+  border: 1px solid darkblue;
+}
+.nav-bgcolor{
+  background-color: navy;
+}
+.about-container{
+  background-color: rgb(86, 59, 130)
+}
+.education-containcer{
+  background-color: antiquewhite;
+}
+.colour{
+  color: crimson;
+}
+.circle{
+  background-color: chocolate;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.project-container{
+  background-color: darkorange;
+}
+.portfolio-container{
+  background-color: rgb(104, 5, 251);
+}
