@@ -11,6 +11,11 @@ body{
   border-radius: 50px;
   border: 1px solid darkblue;
 }
+.navbar-container{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
 .nav-bgcolor{
   background-color: navy;
 }
@@ -34,4 +39,30 @@ body{
 }
 .portfolio-container{
   background-color: rgb(104, 5, 251);
+}
+.form-container{
+  background-color: darkslategray;
+}
+.inner-form{
+  background-color: rgb(231, 218, 199);
+}
+.button-color{
+  background-color: blue;
+}
+.button-color:hover{
+  color: black;
+  background-color: blueviolet;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.circ{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  display: inline-block;
+}
+.circ:hover{
+  background-color: chartreuse;
 }
